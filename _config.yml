@@ -3,9 +3,9 @@
 ## 配置来源：https://github.com/hexojs/hexo/
 
 # 网站信息
-title: Lucky # 网站主标题
+title: 细水长流 # 网站主标题
 subtitle: '' # 网站副标题（显示在首页标题下方）
-description: "A life of mist and rain" # 网站描述（用于 SEO）
+description: "一蓑烟雨任平生" # 网站描述（用于 SEO）
 keywords: # 网站关键词（用于 SEO，可用英文逗号隔开）
 author: Zhch's Blog # 作者名称
 language: zh-CN # 网站语言（简体中文）
