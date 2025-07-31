@@ -443,7 +443,7 @@ font:
     size:
 
   # 网站标题（.site-title）的字体设置
-  title: 细水长流
+  title: 
     external: true
     family:
     size:
