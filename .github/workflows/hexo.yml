@@ -1,0 +1,69 @@
+# 部署 Hexo 网站到 GitHub Pages 的工作流程
+name: Deploy Hexo site to Pages
+
+on:
+  # 当推送到 main 分支时触发工作流程
+  push:
+    branches: [main]
+
+  # 允许从 GitHub Actions 界面手动运行工作流程
+  workflow_dispatch:
+
+# 设置 GITHUB_TOKEN 的权限，允许将内容写入 GitHub Pages
+permissions:
+  contents: read        # 只读代码仓库内容
+  pages: write          # 写入 Pages 内容
+  id-token: write       # 用于身份验证
+
+# 控制并发部署：同一时间只允许一个部署任务运行
+# 新的部署任务排队等待，**不取消**当前正在运行的任务
+concurrency:
+  group: "pages"           # 同一部署组
+  cancel-in-progress: false
+
+# 默认使用 bash shell 执行命令
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # 构建任务
+  build:
+    runs-on: ubuntu-latest       # 在最新版 Ubuntu 环境中运行
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3   # 拉取源码，包括子模块
+        with:
+          submodules: recursive
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5   # 配置 GitHub Pages 环境
+
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v3       # 设置 Node.js 环境
+        with:
+          node-version: "18"
+
+      - name: Install Dependencies
+        run: npm install                  # 安装项目依赖
+
+      - name: Build with Hexo
+        run: npx hexo g                   # 生成静态文件（默认输出在 ./public）
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3   # 上传生成的静态站点
+        with:
+          path: ./public                        # 指定要上传的目录
+
+  # 部署任务
+  deploy:
+    environment:
+      name: github-pages                      # 指定部署的环境名（GitHub Pages）
+      url: ${{ steps.deployment.outputs.page_url }}  # 输出部署后的页面链接
+    runs-on: ubuntu-latest
+    needs: build                               # 等待 build 任务完成
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4          # 正式部署到 GitHub Pages
