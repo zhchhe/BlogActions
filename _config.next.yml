@@ -42,8 +42,8 @@ custom_file_path:
 #scheme: Pisces
 scheme: Gemini
 
-# 暗黑模式开关
-darkmode: ture
+# 暗黑模式开关ture false
+darkmode: true
 
 
 # ---------------------------------------------------------------
@@ -193,15 +193,15 @@ toc:
   # 如果为 true，文章中目录将完全展开，而不是只展开当前部分。
   expand_all: false
   # 自动生成目录的最大标题层级。
-  max_depth: 6
+  max_depth: 4
 
 
 # ---------------------------------------------------------------
 # 页脚设置
 # 参考文档：https://theme-next.js.org/docs/theme-settings/footer
 # ---------------------------------------------------------------
-# 在页脚显示多语言切换器。
-language_switcher: false
+# 在页脚显示多语言切换器。true  false
+language_switcher: true
 
 footer:
   # 指定网站建立的年份。如果未定义，将使用当前年份。
@@ -385,9 +385,9 @@ codeblock:
 back2top:
   enable: true
   # 是否在侧边栏中显示返回顶部按钮
-  sidebar: false
+  sidebar: true
   # 是否在按钮中显示滚动百分比
-  scrollpercent: false
+  scrollpercent: true
 
 # 阅读进度条设置
 reading_progress:
