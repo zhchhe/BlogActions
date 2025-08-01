@@ -439,30 +439,30 @@ font:
   # 全局字体设置，作用于 <body> 内的所有元素
   global:
     external: true
-    family: Lato
+    family: LXGW WenKai
     size:
 
   # 网站标题（.site-title）的字体设置
   title: 
     external: true
-    family:
+    family: LXGW WenKai
     size:
 
   # 标题（<h1> 到 <h6>）的字体设置
   headings:
     external: true
-    family:
+    family: LXGW WenKai
     size:
 
   # 文章内容（.post-body）的字体设置
   posts:
     external: true
-    family:
+    family: LXGW WenKai
 
   # `<code>` 标签和代码块的字体设置
   codes:
     external: true
-    family:
+    family: LXGW WenKai
 
 # ---------------------------------------------------------------
 # SEO 设置
