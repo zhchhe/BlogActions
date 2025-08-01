@@ -158,7 +158,7 @@ site_state: true
 # 名称是显示给用户的标签。
 # `||` 左边是链接地址，右边是 Font Awesome 的图标名称。
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
+  GitHub: https://github.com/zhchhe || fab fa-github
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Twitter: https://twitter.com/yourname || fab fa-twitter
