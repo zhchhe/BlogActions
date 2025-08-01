@@ -52,9 +52,9 @@ darkmode: true
 
 # 网站图标（favicon）
 favicon:
-  small: /images/xishuichangliu.jpg
-  medium: /images/xishuichangliu.jpg
-  apple_touch_icon: /images/xishuichangliu.jpg
+  small: /images/favicon-16x16-next.png
+  medium: /images/favicon-32x32-next.png
+  apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /manifest.json
 
@@ -144,7 +144,7 @@ sidebar:
 # 侧边栏头像设置
 avatar:
   # 替换默认图片，在此设置图片 URL。
-  url: #/images/avatar.gif
+  url: https://github.com/zhchhe/image-bed/raw/main/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87/xishuichangliu.jpg
   # 如果为 true，头像将显示为圆形。
   rounded: false
   # 如果为 true，鼠标移动时头像会旋转。
