@@ -351,13 +351,13 @@ mobile_layout_economy: false
 
 # 浏览器标题栏的颜色
 theme_color:
-  light: "111"
-  dark: "333"
+  light: "222"
+  dark: "222"
 
 # 覆盖浏览器默认行为
 body_scrollbar:
   # 将滚动条置于内容之上
-  overlay: false
+  overlay: true
   # 即使内容没有溢出也保留滚动条空隙
   stable: false
 
