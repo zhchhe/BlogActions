@@ -52,9 +52,9 @@ darkmode: true
 
 # 网站图标（favicon）
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
+  small: /images/xishuichangliu.jpg
+  medium: /images/xishuichangliu.jpg
+  apple_touch_icon: /images/xishuichangliu.jpg
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /manifest.json
 
