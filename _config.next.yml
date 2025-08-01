@@ -174,13 +174,13 @@ social_icons:
   transition: false
 
 # 友情链接
-links_settings: https://blog.imkasen.com/
+links_settings: 
   icon: fa fa-globe
   # 可选值：block | inline
   layout: block
 
 links:
-  #Title: https://example.com
+  Title: https://blog.imkasen.com/
 
 # 侧边栏中的目录（TOC）
 # Front-matter 变量（不支持 wrap 和 expand_all 一起使用）。
