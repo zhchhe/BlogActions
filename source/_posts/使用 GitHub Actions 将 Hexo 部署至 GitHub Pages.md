@@ -25,8 +25,8 @@ categories:
 - 将“源”更改为 GitHub Actions。更改会立即生效；您无需点击“保存”按钮。
 - 在您的本地仓库中创建一个空文件 `.github/workflows/hexo.yaml` 。复制下方 YAML 文件并粘贴到您创建的文件中。根据需要更改分支名称和其他参数。**什么都不用改动**
 
-## 生成 `Hexo` 博客文件夹`npm install -g hexo-cli` 
-详情看 [[1-GitHub Pages + Hexo搭建个人博客网站|GitHub Pages + Hexo搭建个人博客网站]] 
+## `npm install -g hexo-cli` 生成 `Hexo` 博客文件夹  
+详情看 [[[1-GitHub Pages + Hexo搭建个人博客网站|GitHub Pages + Hexo搭建个人博客网站]] ](https://zhchhe.github.io/BlogActions/2025/08/01/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/#more)
 ## 初始化git
 ```
 git init
