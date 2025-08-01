@@ -19,7 +19,7 @@ date: 2023-06-06 22:07:11
 GitHub是一个非常好用的用来存放代码或图片的仓库，搭配Hexo使用可以在 GitHub Pages 上搭建个人博客。
 
 <!-- more -->
-## 准备工作
+**## 准备工作
 
 1. GitHub 账号
 2. 安装 Git
@@ -30,7 +30,7 @@ GitHub是一个非常好用的用来存放代码或图片的仓库，搭配Hexo�
 1. 在 GitHub 上创建一个仓库以上传我们本地的网页。
 2. 仓库名为 `<你的 GitHub 用户名>.github.io` ，然后创建此仓库此步一定不能出错，仓库名必须是用户名后面加 `github.io` 。
 
-## 本地安装Hexo并初始化
+## 本地安装Hexo并初**始化
 
 我们采用Hexo来创建我们的博客网站，Hexo 是一个基于NodeJS的静态博客网站生成器，使用Hexo不需开发，只要进行一些必要的配置即可生成一个个性化的博客网站，非常方便。
 
@@ -79,7 +79,7 @@ deploy:
 ![仓库地址](https://github.com/zhchhe/image-bed/raw/3e0ac1c410ed2719a53537b2296d13ea5c069e5a/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87/Snipaste_2023-06-06_21-58-26.png)
 
 3. 然后在博客文件夹下打开 `git bash`命令行 分别输入以下三条命令：
-
+ 
 ```shell
 hexo clean   #清除缓存文件 db.json 和已生成的静态网页文件夹 public
 hexo g       #重新生成新修改的网站静态文件到默认设置的 public 文件夹(g是 generate 的缩写)
