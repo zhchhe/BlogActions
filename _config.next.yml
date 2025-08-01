@@ -396,7 +396,7 @@ reading_progress:
   start_at: left
   # 显示位置: top | bottom
   position: top
-  reversed: true
+  reversed: false
   color: "#07c160"
   height: 10px
 # 书签支持
