@@ -410,8 +410,8 @@ bookmark:
 
 # 页面右上角 “Follow me on GitHub” 横幅
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/zhchhe
 
 # ---------------------------------------------------------------
 # 字体设置
