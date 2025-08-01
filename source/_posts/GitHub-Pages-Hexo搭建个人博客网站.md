@@ -7,14 +7,6 @@ tags:
   - 个人博客
 categories:
   - 创建博客
-wordCount: 134
-charCount: 2247
-imgCount: 3
-vidCount: 0
-wsCount: 1
-cbCount: 0
-readTime: About 1 minute
-date: 2023-06-06 22:07:11
 ---
 GitHub是一个非常好用的用来存放代码或图片的仓库，搭配Hexo使用可以在 GitHub Pages 上搭建个人博客。
 

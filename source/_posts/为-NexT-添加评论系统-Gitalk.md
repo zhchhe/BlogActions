@@ -7,14 +7,6 @@ tags:
   - Gitalk
 categories:
   - 创建博客
-wordCount: 323
-charCount: 7645
-imgCount: 6
-vidCount: 0
-wsCount: 0
-cbCount: 0
-readTime: About 2 minutes
-date: 2023-06-08 18:45:38
 ---
 
 作为博客作者，我建议你为你的博客添加评论系统。添加评论系统，你可以与读者互动，收集反馈意见。Gitalk是一个简单易用且与你的博客主题兼容的评论系统，它使用GitHub作为后端存储，保证了数据的安全性。此外，Gitalk还支持Markdown语法等功能，你的博客将更具互动性和价值。

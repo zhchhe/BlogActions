@@ -7,14 +7,6 @@ tags:
   - 疑难杂症
 categories:
   - 疑难杂症
-wordCount: 30
-charCount: 286
-imgCount: 0
-vidCount: 0
-wsCount: 0
-cbCount: 0
-readTime: About 13 seconds
-date: 2023-06-08 13:27:02
 ---
 
 有些时候需要用 npm 来安装一些工具，但是进度条可能会很慢甚至卡住，这时候就需要更换 npm 的下载地址了。

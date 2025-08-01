@@ -1,14 +1,5 @@
 ---
 title: Hello World
-abbrlink: 16107
-wordCount: 48
-charCount: 1420
-imgCount: 0
-vidCount: 0
-wsCount: 0
-cbCount: 0
-readTime: About 18 seconds
-date: 2023-06-04 22:07:11
 ---
 Welcome to [Hexo](https://hexo.io/)！ 这是您的第一篇文章。 查看 [文档](https://hexo.io/docs/) 了解更多信息。 如果你在使用 Hexo 的过程中遇到任何问题，你可以在 [疑难解答](https://hexo.io/docs/troubleshooting.html) 中找到答案，也可以在 [GitHub](https://github.com/hexojs/hexo/issues) 上问我。
 <!-- more -->
