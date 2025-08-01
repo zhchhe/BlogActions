@@ -180,7 +180,7 @@ links_settings:
   layout: block
 
 links:
-  Title: https://blog.imkasen.com/
+  拾遗记: https://blog.imkasen.com/
 
 # 侧边栏中的目录（TOC）
 # Front-matter 变量（不支持 wrap 和 expand_all 一起使用）。
