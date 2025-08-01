@@ -397,7 +397,7 @@ reading_progress:
   # 显示位置: top | bottom
   position: top
   reversed: true
-  color: "#37c6c0"
+  color: "#07c160"
   height: 3px
 # 书签支持
 bookmark:
