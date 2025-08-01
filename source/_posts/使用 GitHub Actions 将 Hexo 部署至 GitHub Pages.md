@@ -19,29 +19,32 @@ categories:
 
 本文将使用 [GitHub Actions](https://docs.github.com/zh/actions) 部署至 GitHub Pages，此方法适用于公开或私人储存库。若你不希望将源文件夹上传到 GitHub，请参阅 [一键部署](app://obsidian.md/index.html#%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2)。一键部署只将网页文件上传到GitHub，利用GitHub Actions可以上传网页的整个源文件，包括主题、模板等等。
 
-1. 建立 `GitHub` 储存库
+## 建立 `GitHub` 储存库
 	你需要创建一个 GitHub 仓库，并将你的本地仓库推送到该仓库。访问你的 GitHub 仓库，从主菜单中选择“设置”>“页面”。然后在屏幕中央你会看到这个选项：
 	![](https://theme-next.js.org/images/github-pages.png)
 - 将“源”更改为 GitHub Actions。更改会立即生效；您无需点击“保存”按钮。
 - 在您的本地仓库中创建一个空文件 `.github/workflows/hexo.yaml` 。复制下方 YAML 文件并粘贴到您创建的文件中。根据需要更改分支名称和其他参数。**什么都不用改动**
 
-2. 生成 `Hexo` 博客文件夹`npm install -g hexo-cli` 详情看 [[1-GitHub Pages + Hexo搭建个人博客网站|GitHub Pages + Hexo搭建个人博客网站]] 
-3. 初始化git
+## 生成 `Hexo` 博客文件夹`npm install -g hexo-cli` 
+详情看 [[1-GitHub Pages + Hexo搭建个人博客网站|GitHub Pages + Hexo搭建个人博客网站]] 
+## 初始化git
 ```
 git init
 ```
-4. 添加名为 origin 的远程仓库。
+## 添加名为 origin 的远程仓库。
 ```
 git remote add origin <远程仓库的 URL>
 ```
 > <远程仓库的 URL>就是远程 GitHub库的 https地址。
-5. 将 Hexo 文件夹 push 到储存库的默认分支，默认分支通常名为 `main`
+## 将 Hexo 文件夹 push 到储存库的默认分支
+默认分支通常名为 `main`
 ```
 git add .
 git commit -m "第一次提交Hexo到GitHub"
 git push origin main
 ```
-6. 在本地储存库中建立文件 `.github/workflows/hexo.yml`，并填入以下内容
+## 在本地博客以下路径中创建自动化脚本文件 `hexo.yml`
+ `.github/workflows/hexo.yml`，并填入以下内容
 ```yml
 # 部署 Hexo 网站到 GitHub Pages 的工作流程
 name: Deploy Hexo site to Pages
@@ -114,14 +117,15 @@ jobs:
         uses: actions/deploy-pages@v4          # 正式部署到 GitHub Pages
 
 ```
-7. 再将自动化脚本提交到 `GitHub`
+## 再将自动化脚本提交到 `GitHub`
 ```
 git init
 git add .
 git commit -m "提交自动化脚本到GitHub"
 git push origin main
 ```
-8. 查询GitHub页面部署成功与否，结束。以后在本地上只需要进行以下这四步直接提交到GitHub就行了
+## 查询GitHub页面部署成功与否
+结束。以后在本地上只需要进行以下这四步直接提交到GitHub就行了
 ```
 git init
 git add .
