@@ -174,7 +174,7 @@ social_icons:
   transition: false
 
 # 友情链接
-links_settings:
+links_settings: https://blog.imkasen.com/
   icon: fa fa-globe
   # 可选值：block | inline
   layout: block
@@ -191,7 +191,7 @@ toc:
   # 如果为 true，当标题宽度超过侧边栏宽度时文字换行。
   wrap: false
   # 如果为 true，文章中目录将完全展开，而不是只展开当前部分。
-  expand_all: false
+  expand_all: true
   # 自动生成目录的最大标题层级。
   max_depth: 4
 
