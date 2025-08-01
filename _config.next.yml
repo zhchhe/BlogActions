@@ -398,7 +398,7 @@ reading_progress:
   position: top
   reversed: true
   color: "#07c160"
-  height: 3px
+  height: 10px
 # 书签支持
 bookmark:
   enable: false
