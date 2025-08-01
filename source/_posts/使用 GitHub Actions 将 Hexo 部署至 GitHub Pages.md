@@ -15,7 +15,7 @@ categories:
 
 > 参考：[在 GitHub Pages 上部署 Hexo | Hexo](https://hexo.io/zh-cn/docs/github-pages)
 
-## 总结：先提交初始化的`Hexo`到`GitHub`仓库，再新建一个自动化脚本推送到`GitHub`仓库
+> 总结：先提交初始化的`Hexo`到`GitHub`仓库，再新建一个自动化脚本推送到`GitHub`仓库
 
 本文将使用 [GitHub Actions](https://docs.github.com/zh/actions) 部署至 GitHub Pages，此方法适用于公开或私人储存库。若你不希望将源文件夹上传到 GitHub，请参阅 [一键部署](app://obsidian.md/index.html#%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2)。一键部署只将网页文件上传到GitHub，利用GitHub Actions可以上传网页的整个源文件，包括主题、模板等等。
 
