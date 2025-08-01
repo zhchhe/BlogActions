@@ -10,6 +10,9 @@ categories:
   - 创建博客
 ---
 
+也许你已经对hexo本地clean、生成再推送部署的流程，GitHub Actions 可以帮你在推送博客源代码后，自动构建并部署 Hexo 博客到 GitHub Pages，无需手动构建和上传！
+<!-- more -->
+
 > 参考：[在 GitHub Pages 上部署 Hexo | Hexo](https://hexo.io/zh-cn/docs/github-pages)
 
 ## 总结：先提交初始化的`Hexo`到`GitHub`仓库，再新建一个自动化脚本推送到`GitHub`仓库
