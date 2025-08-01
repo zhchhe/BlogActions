@@ -338,7 +338,7 @@ calendar:
 
 # 为字体和插件预加载样式和预连接 CDN
 # 更多信息：https://www.w3.org/TR/resource-hints/#preconnect
-preconnect: false
+preconnect: true
 
 # 设置文章/页面中的文本对齐方式
 text_align:
@@ -351,8 +351,8 @@ mobile_layout_economy: false
 
 # 浏览器标题栏的颜色
 theme_color:
-  light: "#222"
-  dark: "#222"
+  light: "111"
+  dark: "333"
 
 # 覆盖浏览器默认行为
 body_scrollbar:
@@ -471,10 +471,10 @@ font:
 
 # 如果为 true，首页的标题中将加入 site-subtitle
 # 记得在 Hexo 的 `_config.yml` 中设置 site-subtitle，例如：subtitle: 子标题
-index_with_subtitle: false
+index_with_subtitle: true
 
 # 自动为外链添加 Base64 加密和解密
-exturl: false
+exturl: true
 # 如果为 true，将为每个外链附加一个图标
 exturl_icon: true
 
