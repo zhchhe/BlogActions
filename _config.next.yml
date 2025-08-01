@@ -351,8 +351,8 @@ mobile_layout_economy: false
 
 # 浏览器标题栏的颜色
 theme_color:
-  light: "222"
-  dark: "222"
+  light: "#222"
+  dark: "#222"
 
 # 覆盖浏览器默认行为
 body_scrollbar:
