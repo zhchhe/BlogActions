@@ -391,12 +391,12 @@ back2top:
 
 # 阅读进度条设置
 reading_progress:
-  enable: false
+  enable: true
   # 起始方向: left | right
   start_at: left
   # 显示位置: top | bottom
   position: top
-  reversed: false
+  reversed: true
   color: "#37c6c0"
   height: 3px
 # 书签支持
