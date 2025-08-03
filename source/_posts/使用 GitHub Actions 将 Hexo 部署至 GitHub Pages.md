@@ -8,6 +8,7 @@ tags:
   - 自动化
 categories:
   - 创建博客
+date: 2023-09-03 12:00:00
 ---
 
 也许你已经对hexo本地clean、生成再推送部署的流程感到厌烦，GitHub Actions 可以帮你在推送博客源代码后，自动构建并部署 Hexo 博客到 GitHub Pages，无需手动构建和上传！

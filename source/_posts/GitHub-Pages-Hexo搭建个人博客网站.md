@@ -7,6 +7,7 @@ tags:
   - 个人博客
 categories:
   - 创建博客
+date: 2023-09-02 12:00:00
 ---
 GitHub是一个非常好用的用来存放代码或图片的仓库，搭配Hexo使用可以在 GitHub Pages 上搭建个人博客。
 
