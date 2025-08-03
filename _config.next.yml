@@ -45,8 +45,8 @@ scheme: Gemini
 # 暗黑模式开关ture false
 darkmode:
   enable: true     # 开启暗黑模式支持功能
-  button: false    # 是否显示一个暗黑/明亮模式切换按钮在菜单栏上（通常在右上角）可改成 true 如果你希望有切换按钮
-  switch: false    # 是否显示一个样式切换开关（比如在页面底部或边栏）
+  button: true    # 是否显示一个暗黑/明亮模式切换按钮在菜单栏上（通常在右上角）可改成 true 如果你希望有切换按钮
+  switch: true    # 是否显示一个样式切换开关（比如在页面底部或边栏）
   mode: dark
 
 # ---------------------------------------------------------------
@@ -401,7 +401,7 @@ reading_progress:
   position: top
   reversed: false
   color: "#07c160"
-  height: 10px
+  height: 5px
 # 书签支持
 bookmark:
   enable: true
