@@ -6,6 +6,7 @@ tags:
   - 插件
 categories:
   - 插件
+date: 2023-09-04 13:00:00
 ---
 我们在使用 Git 的时候经常会需要使用 git status 来查看 Git 的状态，有了这款 power shell 插件，就可以实时显示 Git 的状态了。
 <!--more-->

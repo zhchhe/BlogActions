@@ -7,6 +7,7 @@ tags:
   - 个人博客
 categories:
   - 创建博客
+<<<<<<< HEAD
 wordCount: 52
 charCount: 1405
 imgCount: 7
@@ -15,6 +16,9 @@ wsCount: 0
 cbCount: 0
 readTime: About 1 minute
 date: 2023-06-12 14:58:46
+=======
+date: 2023-09-06 14:00:00
+>>>>>>> 78eb18b892f5f6a95f99881237b5bc1ba3ceb67b
 ---
 
 我们的博客通常都会有评论系统，我使用的是 Gitalk评论系统。我的主题是暗色调，但 Gitalk默认的主题是亮色调。如何更改这些元素的颜色呢？来看看我的教程吧。
